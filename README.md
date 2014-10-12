@@ -1,8 +1,16 @@
 ## Mars Rover - Coding Kata ##
 #### This is just a template of sbt/scala project to make easy to do this kata using TDD  ####
 
-##### Get source template #####
+##### Getting started source #####
+1. clone repo
 ` git clone --branch base https://github.com/salc2/marsrover-scala.git `
+
+2. go into the project folder
+` cd marsrover-scala `
+
+3. run tests and watch what features to complete
+` sbt test `
+
 
 ##### Kata objectives #####
 

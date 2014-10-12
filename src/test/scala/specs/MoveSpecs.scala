@@ -12,10 +12,10 @@ class MoveSpecs extends FeatureSpec with GivenWhenThen {
     info("I want to be able to send an array command to the rover")
     info("So that the rover can move or change its face direction")
  
-    scenario("the rover is in x=0 and y=0 position and facing N (North) ") { 
-      given("a command: LL")
+    scenario("The rover is on a 100x100 grid at location (0, 0) and facing NORTH") { 
+      given("the commands 'ffrff'")
       when("the command is sent to the rover")
-      then("now the new state of the rover must be x=0 , y=0 and S (South)")
+      then("end up at (2, 2) and facing WEST")
       pending
     }
 

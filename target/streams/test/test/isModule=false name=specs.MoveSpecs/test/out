@@ -3,7 +3,7 @@
 [0m[[0minfo[0m] [0m[32m  As a rover's operator [0m[0m
 [0m[[0minfo[0m] [0m[32m  I want to be able to send an array command to the rover [0m[0m
 [0m[[0minfo[0m] [0m[32m  So that the rover can move or change its face direction [0m[0m
-[0m[[0minfo[0m] [0m[33m  Scenario: the rover is in x=0 and y=0 position and facing N (North) (pending)[0m[0m
-[0m[[0minfo[0m] [0m[33m    Given a command: LL [0m[0m
+[0m[[0minfo[0m] [0m[33m  Scenario: The rover is on a 100x100 grid at location (0, 0) and facing NORTH (pending)[0m[0m
+[0m[[0minfo[0m] [0m[33m    Given the commands 'ffrff' [0m[0m
 [0m[[0minfo[0m] [0m[33m    When the command is sent to the rover [0m[0m
-[0m[[0minfo[0m] [0m[33m    Then now the new state of the rover must be x=0 , y=0 and S (South) [0m[0m
+[0m[[0minfo[0m] [0m[33m    Then end up at (2, 2) and facing WEST [0m[0m

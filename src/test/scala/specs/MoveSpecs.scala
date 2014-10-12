@@ -1,5 +1,3 @@
-package specs;
-
 import org.scalatest.FeatureSpec
 import org.scalatest.GivenWhenThen
 import scala.collection.mutable.Stack
@@ -14,9 +12,11 @@ class MoveSpecs extends FeatureSpec with GivenWhenThen {
  
     scenario("The rover is on a 100x100 grid at location (0, 0) and facing NORTH") { 
       given("the commands 'ffrff'")
+      val command = "ffrff"
       when("the command is sent to the rover")
+      val feedback = MarsRoverAPI.send(command)
       then("end up at (2, 2) and facing WEST")
-      pending
+      assert(feedback === (2,2,"w"))
     }
 
 

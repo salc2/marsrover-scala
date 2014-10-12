@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/home/jsalc2/kata-marsrover/}kata-marsrover...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/jsalc2/marsrover-scala/}marsrover-scala...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: mars-rover-api#mars-rover-api_2.10;0.1[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for mars-rover-api#mars-rover-api_2.10;0.1 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies mars-rover-api#mars-rover-api_2.10;0.1->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6bd7a7[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@110b276[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.4[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
@@ -174,19 +174,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 309ms :: artifacts dl 10ms[0m
-[0m[[0mdebug[0m] [0m	report for mars-rover-api#mars-rover-api_2.10;0.1 compile produced in /home/jsalc2/kata-marsrover/target/resolution-cache/reports/mars-rover-api-mars-rover-api_2.10-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for mars-rover-api#mars-rover-api_2.10;0.1 runtime produced in /home/jsalc2/kata-marsrover/target/resolution-cache/reports/mars-rover-api-mars-rover-api_2.10-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for mars-rover-api#mars-rover-api_2.10;0.1 test produced in /home/jsalc2/kata-marsrover/target/resolution-cache/reports/mars-rover-api-mars-rover-api_2.10-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for mars-rover-api#mars-rover-api_2.10;0.1 provided produced in /home/jsalc2/kata-marsrover/target/resolution-cache/reports/mars-rover-api-mars-rover-api_2.10-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for mars-rover-api#mars-rover-api_2.10;0.1 optional produced in /home/jsalc2/kata-marsrover/target/resolution-cache/reports/mars-rover-api-mars-rover-api_2.10-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for mars-rover-api#mars-rover-api_2.10;0.1 compile-internal produced in /home/jsalc2/kata-marsrover/target/resolution-cache/reports/mars-rover-api-mars-rover-api_2.10-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for mars-rover-api#mars-rover-api_2.10;0.1 runtime-internal produced in /home/jsalc2/kata-marsrover/target/resolution-cache/reports/mars-rover-api-mars-rover-api_2.10-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for mars-rover-api#mars-rover-api_2.10;0.1 test-internal produced in /home/jsalc2/kata-marsrover/target/resolution-cache/reports/mars-rover-api-mars-rover-api_2.10-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for mars-rover-api#mars-rover-api_2.10;0.1 plugin produced in /home/jsalc2/kata-marsrover/target/resolution-cache/reports/mars-rover-api-mars-rover-api_2.10-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for mars-rover-api#mars-rover-api_2.10;0.1 sources produced in /home/jsalc2/kata-marsrover/target/resolution-cache/reports/mars-rover-api-mars-rover-api_2.10-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for mars-rover-api#mars-rover-api_2.10;0.1 docs produced in /home/jsalc2/kata-marsrover/target/resolution-cache/reports/mars-rover-api-mars-rover-api_2.10-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for mars-rover-api#mars-rover-api_2.10;0.1 pom produced in /home/jsalc2/kata-marsrover/target/resolution-cache/reports/mars-rover-api-mars-rover-api_2.10-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for mars-rover-api#mars-rover-api_2.10;0.1 scala-tool produced in /home/jsalc2/kata-marsrover/target/resolution-cache/reports/mars-rover-api-mars-rover-api_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (309ms resolve - 10ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 278ms :: artifacts dl 7ms[0m
+[0m[[0mdebug[0m] [0m	report for mars-rover-api#mars-rover-api_2.10;0.1 compile produced in /home/jsalc2/marsrover-scala/target/resolution-cache/reports/mars-rover-api-mars-rover-api_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for mars-rover-api#mars-rover-api_2.10;0.1 runtime produced in /home/jsalc2/marsrover-scala/target/resolution-cache/reports/mars-rover-api-mars-rover-api_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for mars-rover-api#mars-rover-api_2.10;0.1 test produced in /home/jsalc2/marsrover-scala/target/resolution-cache/reports/mars-rover-api-mars-rover-api_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for mars-rover-api#mars-rover-api_2.10;0.1 provided produced in /home/jsalc2/marsrover-scala/target/resolution-cache/reports/mars-rover-api-mars-rover-api_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for mars-rover-api#mars-rover-api_2.10;0.1 optional produced in /home/jsalc2/marsrover-scala/target/resolution-cache/reports/mars-rover-api-mars-rover-api_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for mars-rover-api#mars-rover-api_2.10;0.1 compile-internal produced in /home/jsalc2/marsrover-scala/target/resolution-cache/reports/mars-rover-api-mars-rover-api_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for mars-rover-api#mars-rover-api_2.10;0.1 runtime-internal produced in /home/jsalc2/marsrover-scala/target/resolution-cache/reports/mars-rover-api-mars-rover-api_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for mars-rover-api#mars-rover-api_2.10;0.1 test-internal produced in /home/jsalc2/marsrover-scala/target/resolution-cache/reports/mars-rover-api-mars-rover-api_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for mars-rover-api#mars-rover-api_2.10;0.1 plugin produced in /home/jsalc2/marsrover-scala/target/resolution-cache/reports/mars-rover-api-mars-rover-api_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for mars-rover-api#mars-rover-api_2.10;0.1 sources produced in /home/jsalc2/marsrover-scala/target/resolution-cache/reports/mars-rover-api-mars-rover-api_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for mars-rover-api#mars-rover-api_2.10;0.1 docs produced in /home/jsalc2/marsrover-scala/target/resolution-cache/reports/mars-rover-api-mars-rover-api_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for mars-rover-api#mars-rover-api_2.10;0.1 pom produced in /home/jsalc2/marsrover-scala/target/resolution-cache/reports/mars-rover-api-mars-rover-api_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for mars-rover-api#mars-rover-api_2.10;0.1 scala-tool produced in /home/jsalc2/marsrover-scala/target/resolution-cache/reports/mars-rover-api-mars-rover-api_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (278ms resolve - 7ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
